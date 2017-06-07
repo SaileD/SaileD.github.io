@@ -37,7 +37,7 @@ body {
       rgba(0, 0, 0, 0.25),
       rgba(0, 0, 0, 0.25)
     ), url("./images/Collage.jpg") !important;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background: absolute;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -45,11 +45,6 @@ body {
     background-size: cover;
     color: Black;
 }
-
-/*a, a:hover, a:visited, a:link, a:active{
-  text-decoration: none;
-  color:inherit;
-}*/
 
 @media (max-width: 1800px) {
   html {
@@ -73,7 +68,7 @@ body {
 	      rgba(0, 0, 0, 0.5),
 	      rgba(0, 0, 0, 0.5)
 	    ), url("./images/Collage.jpg") !important;
-	    background-repeat: no-repeat;
+	    background-repeat: repeat;
 	    background: absolute;
 	    -webkit-background-size: cover;
 	    -moz-background-size: cover;
