@@ -4,12 +4,23 @@ html {
   margin-top: 0px;
  margin-right: 0px;
  margin-bottom: 0px;
- margin-left: 0px
+ margin-left: 0px;
  border-collapse:separate;
 }
 
 body {
   height:100%;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.25)
+  ), url("./images/Collage.jpg") !important;
+  background-repeat: repeat;
+  background: absolute;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
 }
 
 .main {
@@ -18,6 +29,8 @@ body {
  border-collapse:separate;
  font-family: 'Roboto Condensed';
 }
+<<<<<<< HEAD
+=======
 
 #featured_images {
   font-size: 2em;
@@ -78,3 +91,4 @@ body {
 	}
 }
 */
+>>>>>>> 0ff5aff2df9515afbb72a205a19d39c03f778803
