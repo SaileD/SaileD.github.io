@@ -46,7 +46,7 @@ body {
     color:white;
 }
 
-ul {
+/*ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -55,7 +55,7 @@ ul {
 li {
   display: inline-block;
   margin-right: 2%;
-}
+}*/
 
 a, a:hover, a:visited, a:link, a:active{
   text-decoration: none;
