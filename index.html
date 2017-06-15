@@ -32,16 +32,36 @@
 					<h1 class="panel-title">Saile & Taylor</h1>
 				</div>
 				<div class="panel-body">
-					<button class="button button1">When you're done<br>looking around<br>click me :)</button>
 					<!-- 
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe src="https://www.youtube.com/embed/3mUfOs-CTCw?rel=0" frameborder="0" allowfullscreen></iframe>
-					</div>
+					<button class="button button1">When you're done<br>looking around<br>click me :)</button>
 					-->
+					
+					<div class="embed-responsive embed-responsive-16by9">
+						<!-- 
+						<iframe src="https://www.youtube.com/embed/3mUfOs-CTCw?rel=0" frameborder="0" allowfullscreen></iframe>
+						-->
+						<iframe class="vid" id="yt" src="https://www.youtube.com/embed/qObSFfdfe7I" frameborder="0" allowfullscreen></iframe>
+						<div id="content">
+							<p>Title</p>
+							<center>
+								<button>Click</button>
+							</center>
+						</div>
+					</div>
+					
+					
 				</div>
 			</div>
 	  </div>
   </div>
+<script>
+$("button").click(function () {
+    $("#content").hide();
+    $("#yt")[0].src += "?autoplay=0";
+    setTimeout(function(){ $("#yt").show(); }, 500);
+});
+</script>
+
 </body>
 
 </html>

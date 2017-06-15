@@ -61,6 +61,26 @@ padding: 36px 38px;
 border-radius: 6px;
 }
 
+.vid {
+    width: 100vw;
+    height: 400px;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    background-color: black;
+}
+#yt {
+    display: none;
+}
+#content {
+}
+p {
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    padding-top: 100px;
+}
+
 .main {
   height: 100%;
  padding: 0;
