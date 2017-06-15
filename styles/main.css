@@ -43,13 +43,17 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 14px;
     margin: 4px 2px;
     cursor: pointer;
     position:absolute;
     transition: .5s ease;
     top: 32.6%;
     left: 35%;
+    min-height: 105px;
+    min-width: 172px;
+    max-height: 105px;
+    max-width: 225px;
 }
 
 .button1 {
