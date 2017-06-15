@@ -61,14 +61,7 @@ padding: 36px 38px;
 border-radius: 6px;
 }
 
-.vid {
-    width: 100vw;
-    height: 400px;
-    object-fit: cover;
-    z-index: -1;
-    position: absolute;
-    background-color: black;
-}
+
 #yt {
     display: none;
 }
