@@ -13,7 +13,7 @@ body {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.25),
     rgba(0, 0, 0, 0.25)
-  ), url("./images/Collage.jpg") !important;
+  ), url("images/Collage.jpg") !important;
   background-repeat: repeat;
   background: absolute;
   -webkit-background-size: cover;
@@ -25,7 +25,7 @@ body {
 
 .panel {
   background-size: cover;
-  background-image: url("./images/Collage-small.jpg") !important;
+  background-image: url("images/Collage-small.jpg") !important;
   border: 0;
   min-height: 325px;
   min-width: 325px;
