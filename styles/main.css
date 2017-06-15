@@ -48,8 +48,8 @@ body {
     cursor: pointer;
     position:absolute;
     transition: .5s ease;
-    top: 32.6%;
-    left: 35%;
+    top: 24%;
+    left: 37%;
     min-height: 105px;
     min-width: 172px;
     max-height: 105px;
@@ -74,12 +74,7 @@ border-radius: 6px;
 }
 #content {
 }
-p {
-    color: white;
-    font-size: 20pt;
-    text-align: center;
-    padding-top: 100px;
-}
+
 
 .main {
   height: 100%;
