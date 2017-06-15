@@ -25,7 +25,7 @@ body {
 
 .panel {
   background-size: cover;
-  background-image: url("images/Collage-small.jpg") !important;
+  background-image: url("images/collage-small.jpg") !important;
   border: 0;
   min-height: 325px;
   min-width: 325px;
